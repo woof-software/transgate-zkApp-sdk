@@ -1,0 +1,21 @@
+{
+  "name": "transgate-o1js-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zk-program-example": "ts-node src/example/zk-program-example.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.5.5",
+    "@zkpass/transgate-js-sdk": "^0.2.0",
+    "ethers": "^5.7.2",
+    "o1js": "file:../o1js",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "web3": "^4.12.1"
+  }
+}
