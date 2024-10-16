@@ -1,21 +1,34 @@
 {
   "name": "transgate-o1js-sdk",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Extension of zkPass Transgate-SDK for Mina/o1js development",
+  "main": "index.ts",
   "scripts": {
-    "zk-program-example": "ts-node src/example/zk-program-example.ts"
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "transgate-zkApp-sdk-example": "node lib/example/transgate-zkApp-sdk-example.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "o1js",
+    "mina",
+    "zk",
+    "zkPass"
+  ],
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.5.5",
     "@zkpass/transgate-js-sdk": "^0.2.0",
     "ethers": "^5.7.2",
-    "o1js": "file:../o1js",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.6.2",
-    "web3": "^4.12.1"
+    "o1js": "^1.8.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/node": "^22.7.5",
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "eslint": "^9.12.0",
+    "globals": "^15.11.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.9.0"
   }
 }

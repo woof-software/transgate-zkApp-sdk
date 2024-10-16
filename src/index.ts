@@ -1,2 +1,3 @@
 export { TransgateZkAppSdk } from './transgate-zkApp-sdk'
-export { VerifySignatureZkAppPayload, VerifySignatureZkAppPayloadWithPublicKey } from './types'
+export { VerifyAllocator, VerifyValidator, Verify, Result } from './types'
+export { ZkPassVerifyZkProgram } from './zk-program'
