@@ -32,7 +32,7 @@ export type VerifyValidator = {
     schemaId: string,
     validatorSignature: string,
     uHash: string,
-    recipient: string,
+    recipient?: string,
     publicFieldsHash: string,
     validator: string,
 }
